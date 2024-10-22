@@ -18,7 +18,7 @@ jobs:
       # Unzip MyApp.zip
       - name: Unzip MyApp.zip
         run: |
-          unzip MyApp.zip -o
+          unzip -o MyApp.zip
 
       # Set up JDKs
       - name: Set up JDK 16
